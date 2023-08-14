@@ -1,7 +1,5 @@
-//用牛顿迭代法求下面方程在1.5附近的根：f(x)=2x^3-4x^2+3x-6
-
- #include <stdio.h>
- #include <math.h>
+#include <stdio.h>
+#include <math.h>
 int  main()
  {double x1,x0,f,f1;
   x1=1.5;

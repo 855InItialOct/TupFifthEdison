@@ -1,5 +1,3 @@
-//求Sn=a+aa+aaa+…+,2+22+222+2222+22222 (此时n=5)
-
 #include <stdio.h>
 int main()
  {

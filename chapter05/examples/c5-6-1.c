@@ -1,5 +1,3 @@
-//输出以下4×5的矩阵。
-
 #include <stdio.h>
 int main()
 {

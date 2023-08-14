@@ -1,5 +1,3 @@
-//要求输出100～200之间的不能被3整除的数。
-
 #include <stdio.h>
 int main()
 {int n;

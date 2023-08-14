@@ -1,11 +1,4 @@
-//用迭代法求平方根。
-/*
-求平方根的迭代公式为:
- Xn+1=1/2 (Xn + a/Xn)
-要求前后两次求出的x的差的绝对值小于10^-5。
-*/
-
- #include <stdio.h>
+#include <stdio.h>
  #include <math.h>
 int main()
  {

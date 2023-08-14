@@ -1,5 +1,3 @@
-//有两个瓶子A和B，分别存放醋和酱油，要求将它们互换（即A瓶原来盛醋，现在用来盛酱油，B瓶则相反）。
-
 #include <stdio.h>
 #include <string.h>
 

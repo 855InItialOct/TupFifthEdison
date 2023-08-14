@@ -1,5 +1,3 @@
-//while和do…while循环的比较。
-
 #include <stdio.h>
 int main()
 {

@@ -1,6 +1,5 @@
-//先后输出BOY三个字符。
-
 #include <stdio.h>
+
 int main ( )
 {
   char a,b,c;                            // 定义3个字符变量  

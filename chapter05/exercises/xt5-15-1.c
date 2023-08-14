@@ -1,5 +1,3 @@
-//用二分法求下面方程在(-10,10)的根:f(x)=2x^3-4x^2+3x-6
-
  #include <stdio.h>
  #include <math.h>
 int main()

@@ -1,5 +1,3 @@
-//有3个整数a, b, c，由键盘输入，输出其中最大的数。
-
 #include <stdio.h>
 int main()
 {

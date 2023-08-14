@@ -1,5 +1,3 @@
-//写一程序，判断某一年是否为闰年。
-
 #include <stdio.h>
 
 int main()

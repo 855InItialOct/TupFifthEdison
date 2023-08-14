@@ -1,5 +1,3 @@
-//判断一个数n能否同时被3和5整除。
-
 #include <stdio.h>
 
 int main()

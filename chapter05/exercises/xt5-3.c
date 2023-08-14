@@ -1,5 +1,3 @@
-//输人两个正整数m和n,求其最大公约数和最小公倍数
-
 #include <stdio.h>
 int main()
  {

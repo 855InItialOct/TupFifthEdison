@@ -1,5 +1,3 @@
-//编写一个C程序，运行时输入a,b,c三个值，输出其中最大值。
-
 #include <stdio.h>
 
 int main()

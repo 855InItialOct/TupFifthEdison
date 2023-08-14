@@ -1,5 +1,3 @@
-//将100~200之间的素数输出。
-
 #include <stdio.h>
 #include <math.h>
 

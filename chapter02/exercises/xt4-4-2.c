@@ -1,5 +1,3 @@
-// 依次输入10个数，要求输出其中最大的数。
-
 #include <stdio.h>
 
 int main()

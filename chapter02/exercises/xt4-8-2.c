@@ -1,5 +1,3 @@
-//求ax²+bx+c=0的根。
-
 #include <stdio.h>
 #include <math.h>
 

@@ -1,5 +1,3 @@
-//输入4个整数，要求按由小到大的顺序输出。
-
 #include <stdio.h>
 int main()
  {int  t,a,b,c,d;

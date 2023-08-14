@@ -1,5 +1,3 @@
-//有三个数a，b，c，要求按大小顺序输出。
-
 #include <stdio.h>
 
 int main()

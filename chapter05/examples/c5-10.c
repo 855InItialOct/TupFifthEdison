@@ -1,5 +1,3 @@
-//求100～200间的全部素数。
-
 # include <stdio.h>
 # include <math.h>
 int main()

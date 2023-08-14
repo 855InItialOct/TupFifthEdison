@@ -1,5 +1,3 @@
-//求1!+2!+3!+...+20!
-
 #include <stdio.h>
 int main()
 

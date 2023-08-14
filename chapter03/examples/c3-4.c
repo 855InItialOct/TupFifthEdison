@@ -1,5 +1,3 @@
-//给出三角形的三边长，求三角形面积。
-
 #include <stdio.h>
 #include <math.h>
 int main ( )
@@ -13,5 +11,4 @@ int main ( )
    printf("a=%f\tb=%f\t%f\n",a,b,c);          // 输出三边a,b,c的值 
    printf("area=%f\n",area);                  // 输出面积area的值
    return 0;
- }  
-
+ }

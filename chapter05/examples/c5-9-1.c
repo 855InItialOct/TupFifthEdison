@@ -1,5 +1,3 @@
-//输入一个大于3的整数n，判定它是否为素数(prime，又称质数)。
-
 #include <stdio.h>
 int main()
  {int n,i;

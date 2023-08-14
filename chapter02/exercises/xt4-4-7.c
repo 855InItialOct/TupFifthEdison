@@ -1,5 +1,3 @@
-//求两个数的m和n的最大公约数。
-
 #include <stdio.h>
 
 int main()

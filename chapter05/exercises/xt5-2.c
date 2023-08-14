@@ -1,5 +1,3 @@
-//请补充例5. 7程序,分别统计当“fabs(t)>= le- 6”和“fabs(t)> = le- 8”时执行循环体的次数。
-
 #include <stdio.h>
 #include <math.h>                  // 程序中用到数学函数fabs，应包含头文件math.n
 int main()

@@ -1,7 +1,6 @@
-//求方程ax²+bx+c=0的根。分别考虑：①有两个不等的实根；②有两个相等的实根。
-
 #include <stdio.h>
 #include <math.h>
+
 int main()
 {
     double a, b, c, disc, p, q;
