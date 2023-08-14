@@ -2,7 +2,7 @@
 
 ## 5.1 求 $\sum\limits_{n=1}^{100} 𝑛$
 
-[c5-1.c](https://github.com/855InItialOct/TupFifthEdison/edit/main/chapter05/examples/c5-1.c)
+[c5-1.c](c5-1.c)
 
 ## 5.2 用do...while语句求 $\sum\limits_{n=1}^{100}𝑛$
 
