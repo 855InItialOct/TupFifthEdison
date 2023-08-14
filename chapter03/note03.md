@@ -115,7 +115,7 @@ C语言要求在定义变量时都要指定变量的类型。常量也是区分�
 
 1. float型（单精度浮点型）  
   计算机中用二进制来表示小数部分以及用2的幂次来表示整数部分。在4个字节（32 位）中，有的编译系统以 24 位表示小数部分（包括符号），以8位表示指数部分（包括指数的符号）。
-  [IEEE754关于浮点数的取值范围](https://blog.csdn.net/gao_zhennan/article/details/120717424)
+  [`IEEE754关于浮点数取值范围的规范`](https://blog.csdn.net/gao_zhennan/article/details/120717424)
     - float型4个字节
     - double型 8个字节
     - long double型 16个字节
