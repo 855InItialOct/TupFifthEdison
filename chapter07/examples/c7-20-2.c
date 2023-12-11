@@ -1,5 +1,5 @@
-//file2.c
-void enter_string(char str[80]) 
+// file2.c
+void enter_string(char str[80])
 {
-  gets(str);       
+	gets(str);
 }
