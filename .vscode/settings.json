@@ -1,5 +1,29 @@
 {
     "files.associations": {
         "stdio.h": "c"
-    }
+    },
+    "cSpell.words": [
+        "bsize",
+        "clearerr",
+        "codetag",
+        "curp",
+        "fclose",
+        "fgetc",
+        "fopen",
+        "fprintf",
+        "fputc",
+        "fputs",
+        "fread",
+        "fscanf",
+        "fseek",
+        "ftell",
+        "fwrite",
+        "getc",
+        "getchar",
+        "getw",
+        "istemp",
+        "javadoc",
+        "putc",
+        "putw"
+    ]
 }
