@@ -3,10 +3,13 @@
         "stdio.h": "c"
     },
     "cSpell.words": [
+        "BCPL",
+        "Bohra",
         "bsize",
         "clearerr",
         "codetag",
         "curp",
+        "deno",
         "fclose",
         "fgetc",
         "fopen",
@@ -22,8 +25,20 @@
         "getchar",
         "getw",
         "istemp",
+        "Jacopini",
         "javadoc",
+        "Kernighan",
+        "lvalue",
+        "Nassi",
+        "Nikiklaus",
         "putc",
-        "putw"
+        "putchar",
+        "putw",
+        "QBASIC",
+        "Ritchie",
+        "rvalue",
+        "scanf",
+        "Shneiderman",
+        "Wirth"
     ]
 }
