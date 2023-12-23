@@ -1,5 +1,13 @@
-// file4.c
-void print_string(char str[])
+// file3.c
+void delete_string(char str[], char ch)
 {
-	printf("%s\n", str);
+	int i, j;
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		if (str[i] != ch)
+		{
+			str[j++] = str[i];
+		}
+	}
+	str[j] = '\0';
 }

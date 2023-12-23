@@ -1,17 +1,25 @@
 #include <stdio.h>
 
-void countCharacters(const char *str, int *letters, int *digits, int *spaces, int *others) 
+void countCharacters(const char *str, int *letters, int *digits, int *spaces, int *others)
 {
     *letters = *digits = *spaces = *others = 0;
 
-    while (*str) {
-        if ((*str >= 'a' && *str <= 'z') || (*str >= 'A' && *str <= 'Z')) {
+    while (*str)
+    {
+        if ((*str >= 'a' && *str <= 'z') || (*str >= 'A' && *str <= 'Z'))
+        {
             (*letters)++;
-        } else if (*str >= '0' && *str <= '9') {
+        }
+        else if (*str >= '0' && *str <= '9')
+        {
             (*digits)++;
-        } else if (*str == ' ') {
+        }
+        else if (*str == ' ')
+        {
             (*spaces)++;
-        } else {
+        }
+        else
+        {
             (*others)++;
         }
 
@@ -19,7 +27,8 @@ void countCharacters(const char *str, int *letters, int *digits, int *spaces, in
     }
 }
 
-int main() {
+int main()
+{
     char str[100];
     int letters, digits, spaces, others;
 

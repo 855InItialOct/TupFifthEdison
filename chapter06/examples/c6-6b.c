@@ -2,9 +2,9 @@
 
 int main()
 {
-    char c[]={'I','\'','m',' ','b','u','s','y','.'};
+	char c[] = {'I', '\'', 'm', ' ', 'b', 'u', 's', 'y', '.'};
 
-    puts(c);
+	puts(c);
 
-    return 0;
+	return 0;
 }

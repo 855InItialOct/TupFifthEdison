@@ -19,14 +19,15 @@ int main()
 
     for (int i = 0; i < 10 - 1; i++)
     {
-        for (int j = i+1; j < 10; j++)
+        min = i;
+        for (int j = i + 1; j < 10; j++)
         {
-            if (array[i] > array[j])
+            if (array[min] > array[j])
             {
                 min = j;
             }
         }
-        if (min!=i)
+        if (min != i)
         {
             temp = array[i];
             array[i] = array[min];

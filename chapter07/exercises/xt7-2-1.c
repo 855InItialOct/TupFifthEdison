@@ -15,9 +15,9 @@ int main()
 	scanf("%f,%f,%f", &a, &b, &c);
 
 	printf("equation: %5.2f*x*x+%5.2f*x+%5.2f=0\n", a, b, c);
-	disc = b * b - 4 * a * c;
 	printf("root:\n");
 
+	disc = b * b - 4 * a * c;
 	if (disc > 0)
 	{
 		greater_than_zero(a, b);
@@ -33,7 +33,7 @@ int main()
 		smaller_than_zero(a, b);
 		printf("x1=%f+%fi\tx2=%f-%fi\n", p, q, p, q);
 	}
-	
+
 	return 0;
 }
 

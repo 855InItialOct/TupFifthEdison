@@ -2,17 +2,17 @@
 
 int main()
 {
-	void printstar();
+	void print_star();
 	void print_message();
 
-	printstar();
+	print_star();
 	print_message();
-	printstar();
-	
+	print_star();
+
 	return 0;
 }
 
-void printstar()
+void print_star()
 {
 	printf("******************\n");
 }

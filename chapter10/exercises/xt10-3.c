@@ -1,6 +1,9 @@
+#define CRT_SECURE_NO_WARNINGS 1
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+
 int main()
 {
 	FILE *fp;
@@ -31,6 +34,6 @@ int main()
 	printf("%s\n", str);
 
 	fclose(fp);
-	
+
 	return 0;
 }
