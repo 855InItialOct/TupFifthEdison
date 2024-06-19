@@ -3,7 +3,7 @@
 char newbuf[NEWSIZE]; // 定义字符数组newbuf
 char *newp = newbuf;  // 定义指针变量newp，指向可存区的始端
 
-char *new(int n) // 定义开辟存区的函数new,开辟存储区后返回指针
+char *newMemory(int n) // 定义开辟存区的函数new,开辟存储区后返回指针
 {
 	if (newp + n <= newbuf + NEWSIZE) // 开辟区未超过newbuf数组的大小
 	{

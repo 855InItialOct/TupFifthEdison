@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n, temp, count;
+    int n, temp = 0, count;
     int array[10] = {0, 1, 2, 3, 4, 6, 7, 8, 9};
 
     count = sizeof(array) / sizeof(array[0]);
@@ -11,7 +11,7 @@ int main()
     {
         printf("%d ", array[i]);
     }
-    
+
     printf("\nPlease enter the number to insert:");
     scanf("%d", &n);
 
@@ -26,7 +26,7 @@ int main()
 
     for (int i = count - 1; i >= temp; i--)
     {
-        array[i + 1] = array[i];
+        array[i] = array[i - 1];
     }
 
     array[temp] = n;

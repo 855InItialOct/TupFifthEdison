@@ -11,7 +11,7 @@ int main()
 	return 0;
 }
 
-void copy_string(char from[], char to[])
+void copy_string(const char from[], char to[])
 {
 	int i = 0;
 	while (from[i] != '\0')

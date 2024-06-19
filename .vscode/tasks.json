@@ -9,9 +9,12 @@
                 "-g",
                 "${file}",
                 // "*.C"    编译当前文件夹中所有的.c源文件
+                "-I",
+                "${workspaceFolder}\\Demo\\Inc",
                 "-o",
-                // "${fileDirname}\\${fileBasenameNoExtension}.exe"
-                "${fileDirname}\\test.exe"//使当前文件夹中所有的.C源文件统一生成一个名为test的可执行程序。
+                //"${fileDirname}\\${fileBasenameNoExtension}.exe"
+                //"${fileDirname}\\test.exe" //使当前文件夹中所有的.C源文件统一生成一个名为test的可执行程序。
+                "${workspaceFolder}\\Demo\\Exe\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"

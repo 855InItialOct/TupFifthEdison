@@ -12,8 +12,10 @@ int main()
 {
 	void input(struct student stu[]);
 	void print(struct student stu[]);
+
 	input(stu);
 	print(stu);
+
 	return 0;
 }
 
@@ -36,7 +38,7 @@ void input(struct student stu[])
 	}
 }
 
-void print(struct student stu[6])
+void print(struct student stu[])
 {
 	int i, j;
 	printf("\n   NO.      name    score1   score2   score3\n");

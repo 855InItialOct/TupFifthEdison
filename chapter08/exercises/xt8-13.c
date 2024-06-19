@@ -5,7 +5,7 @@ int main()
 	float integral(float (*)(float), float, float, int);
 	float f_sin(float);
 	float f_cos(float);
-	float f_exp(float);	
+	float f_exp(float);
 	float a1, b1, a2, b2, a3, b3, c, (*p)(float);
 	int n = 20;
 	printf("input a1,b1:");

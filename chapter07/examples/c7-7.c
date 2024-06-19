@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main()
 {
-	int fac(int n);
-	int n;
-	int y;
+	long long fac(long long n);
+	long long n;
+	long long y;
 	printf("input an integer number:");
 	scanf("%d", &n);
 	y = fac(n);
-	printf("%lld!=%d\n", n, y);
+	printf("%lld!=%lld\n", n, y);
 	return 0;
 }
 
-int fac(int n)
+long long fac(long long n)
 {
-	int f;
+	long long f = 0;
 	if (n < 0)
 		printf("n<0,data error!");
 	else if (n == 0 || n == 1)

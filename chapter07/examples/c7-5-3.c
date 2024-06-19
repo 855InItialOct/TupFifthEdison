@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
 	int max4(int a, int b, int c, int d);
 	int a, b, c, d, max;
@@ -7,6 +7,8 @@ void main()
 	scanf("%d %d %d %d", &a, &b, &c, &d);
 	max = max4(a, b, c, d);
 	printf("max=%d \n", max);
+
+	return 0;
 }
 
 int max4(int a, int b, int c, int d)

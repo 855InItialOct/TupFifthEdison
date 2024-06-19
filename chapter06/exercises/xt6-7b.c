@@ -2,7 +2,7 @@
 
 int main()
 {
-    int cube[3][3] = {0};
+    int cube[3][3] = {{0}};
     int row, col, nextRow, nextCol, num;
 
     row = 0;
@@ -11,12 +11,12 @@ int main()
     nextCol = col;
     num = 1;
 
-    while (num<10)
+    while (num < 10)
     {
         cube[row][col] = num;
         nextRow = (0 == nextRow ? 3 - 1 : nextRow - 1);
         nextCol = (nextCol + 1) % 3;
-        if (0 != cube[nextRow][nextCol] || (0 == row) && 3 - 1 == col)
+        if (0 != cube[nextRow][nextCol] || (0 == row && 3 - 1 == col))
         {
             nextRow = row + 1;
             nextCol = col;

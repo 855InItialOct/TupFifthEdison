@@ -1,6 +1,16 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "algorithm": "c",
+        "limits": "c",
+        "*.tcc": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "string_view": "c",
+        "sstream": "c",
+        "array": "c",
+        "initializer_list": "c",
+        "utility": "c"
     },
     "cSpell.words": [
         "acrt",
@@ -15,6 +25,7 @@
         "cstring",
         "curp",
         "deno",
+        "denormal",
         "destsz",
         "EINVAL",
         "errno",
@@ -39,9 +50,11 @@
         "getw",
         "Glmre",
         "ifdef",
+        "infty",
         "istemp",
         "Jacopini",
         "javadoc",
+        "kbhit",
         "Kernighan",
         "lvalue",
         "malloc",

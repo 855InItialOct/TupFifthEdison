@@ -1,31 +1,49 @@
 #include <stdio.h>
 #include <string.h>
-int main()
+
+void selectionSort(char (*ptr)[20], int n)
 {
-	void sort(char s[][6]);
-	int i;
-	char str[10][6];
-	printf("input 10 strings:\n");
-	for (i = 0; i < 10; i++)
-		scanf("%s", str[i]);
-	sort(str);
-	printf("Now,the sequence is:\n");
-	for (i = 0; i < 10; i++)
-		printf("%s\n", str[i]);
-	return 0;
+	char temp[20], *p = temp;
+	for (int i = 0; i < n - 1; i++)
+	{
+		char *min = *(ptr + i);
+		for (int j = i + 1; j < n; j++)
+		{
+			if (0 < strcmp(min, *(ptr + j)))
+			{
+				min = *(ptr + j);
+			}
+		}
+		if (min != *(ptr + i))
+		{
+			strcpy_s(p, 20, *(ptr + i));
+			strcpy_s(*(ptr + i), 20, min);
+			strcpy_s(min, 20, p);
+		}
+	}
 }
 
-void sort(char s[10][6])
+int main()
 {
-	int i, j;
-	char *p, temp[10];
-	p = temp;
-	for (i = 0; i < 9; i++)
-		for (j = 0; j < 9 - i; j++)
-			if (strcmp(s[j], s[j + 1]) > 0)
+	char str[5][20];
+	for (int i = 0; i < 5; i++)
+	{
+		if (fgets(str[i], 20, stdin))
+		{
+			char *find = strchr(str[i], '\n');
+			if (find)
 			{
-				strcpy(p, s[j]);
-				strcpy(s[j], s[+j + 1]);
-				strcpy(s[j + 1], p);
+				*find = '\0';
 			}
+		}
+	}
+
+	selectionSort(str, 5);
+
+	for (int i = 0; i < 5; i++)
+	{
+		puts(str[i]);
+	}
+
+	return 0;
 }
