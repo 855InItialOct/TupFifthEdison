@@ -1,2 +1,4 @@
-# TupFifthEdison
-This repository is introduced according to the new C language standard C99 and explains the basic concepts and points of C language and program design thoroughly, comprehensively and deeply.
+# Introduction
+ - The content in this repository is extracted from the book Programming in C (Fifth Edition) by Prof. Haoqiang Tan.
+ - This book covers only the most basic aspects and essentials of the C language and programming.
+ - All programs conform to the C 99 standard only.
